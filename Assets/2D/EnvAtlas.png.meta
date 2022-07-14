@@ -9753,7 +9753,7 @@ TextureImporter:
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -9780,7 +9780,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -9794,7 +9794,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -9816,7 +9816,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -9903,7 +9903,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2016
+        y: 184
         width: 32
         height: 32
       alignment: 0
@@ -9923,10 +9923,10 @@ TextureImporter:
       name: EnvAtlas_1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 2016
-        width: 32
-        height: 32
+        x: 16
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9934,7 +9934,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3797a3b9dbbeae54d98f171b648f1e42
+      spriteID: e0c4104dab6ec48498b01657a32fc3b8
       internalID: -527793483
       vertices: []
       indices: 
@@ -9944,8 +9944,8 @@ TextureImporter:
       name: EnvAtlas_2
       rect:
         serializedVersion: 2
-        x: 72
-        y: 2016
+        x: 0
+        y: 136
         width: 32
         height: 32
       alignment: 0
@@ -9955,7 +9955,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a7ed3a815074e948b90e08d6a3b980d
+      spriteID: 8f2de575bc27b1e4cbd6261560a746a3
       internalID: 1892209383
       vertices: []
       indices: 
@@ -9965,8 +9965,8 @@ TextureImporter:
       name: EnvAtlas_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1980
+        x: 48
+        y: 136
         width: 32
         height: 32
       alignment: 0
@@ -9976,7 +9976,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccdd472a1fb5a904abacd0c3af33a954
+      spriteID: 4161c475255dfbc4ca7bd5122a695da4
       internalID: -1025002707
       vertices: []
       indices: 
@@ -9986,8 +9986,8 @@ TextureImporter:
       name: EnvAtlas_4
       rect:
         serializedVersion: 2
-        x: 36
-        y: 1980
+        x: 48
+        y: 184
         width: 32
         height: 32
       alignment: 0
@@ -9997,7 +9997,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c024374abb3bb394d9ea0a506d4aa276
+      spriteID: 61c1d81216542bc4e972cab555f0b127
       internalID: 399095160
       vertices: []
       indices: 
@@ -10007,8 +10007,8 @@ TextureImporter:
       name: EnvAtlas_5
       rect:
         serializedVersion: 2
-        x: 72
-        y: 1980
+        x: 96
+        y: 184
         width: 32
         height: 32
       alignment: 0
@@ -10018,7 +10018,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2251303bd0e187149ba33e158d28fd48
+      spriteID: 88af5b07f6af2334d8dbc4681f78f3cd
       internalID: 2030350866
       vertices: []
       indices: 
@@ -10028,8 +10028,8 @@ TextureImporter:
       name: EnvAtlas_6
       rect:
         serializedVersion: 2
-        x: 36
-        y: 1944
+        x: 96
+        y: 136
         width: 32
         height: 32
       alignment: 0
@@ -10039,7 +10039,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3152a7c44e2e1b84ca6b21c6bae78b90
+      spriteID: 0bc86b686819a8e4ca23e9da75b6c56c
       internalID: -2023600972
       vertices: []
       indices: 
@@ -10049,8 +10049,8 @@ TextureImporter:
       name: EnvAtlas_7
       rect:
         serializedVersion: 2
-        x: 72
-        y: 1944
+        x: 144
+        y: 136
         width: 32
         height: 32
       alignment: 0
@@ -10060,8 +10060,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f8cc9b030442de4094f1f84b06f4b87
+      spriteID: 509197ae4fb844b479c9e122fcf8b858
       internalID: 1233948424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 136
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b670ef0f3422dd34a9fd4a3f11f5d5df
+      internalID: -979517680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 184
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a14482e1547054ab7056975d39a491
+      internalID: -1518555035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 184
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd93093929fee64590bc3364f41b317
+      internalID: 857152301
       vertices: []
       indices: 
       edges: []
@@ -10077,6 +10140,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      EnvAtlas_10: 857152301
+      EnvAtlas_8: -979517680
+      EnvAtlas_9: -1518555035
       EnvAtlas_4: 399095160
       EnvAtlas_0: -5652767100565322613
       EnvAtlas_6: -2023600972
