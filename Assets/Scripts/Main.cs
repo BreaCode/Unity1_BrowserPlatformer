@@ -18,6 +18,10 @@ namespace U1BrowserPlatformer
         {
             _controllers.Execute(Time.deltaTime);
         }
+        private void FixedUpdate()
+        {
+            _controllers.FixedExecute(Time.fixedDeltaTime);
+        }
 
     }
 }

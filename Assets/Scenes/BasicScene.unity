@@ -1706,7 +1706,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109844323}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.04000002, y: -0.1, z: 0}
+  m_LocalPosition: {x: -0.04000002, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1772,7 +1772,7 @@ CapsuleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109844323}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1793,9 +1793,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92980017d5b0a38498460b3962cb01ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerTransform: {fileID: 1109844324}
+  _transform: {fileID: 1442941142}
   _spriteRenderer: {fileID: 1109844325}
   _material: {fileID: 2100000, guid: 0719e39d1e6f18b49be5bbd688fd3df8, type: 2}
+  _mass: 1
+  _floorYPosition: -0.5
+  _speed: 0.3
 --- !u!1 &1141744202
 GameObject:
   m_ObjectHideFlags: 0
@@ -2241,7 +2244,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1442941142}
-  - component: {fileID: 1442941140}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2249,27 +2251,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!50 &1442941140
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1442941139}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!4 &1442941142
 Transform:
   m_ObjectHideFlags: 0
@@ -2278,7 +2259,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1442941139}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.04, y: 0.1, z: 0}
+  m_LocalPosition: {x: -6, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2554,9 +2535,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92980017d5b0a38498460b3962cb01ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerTransform: {fileID: 1657557296}
+  _transform: {fileID: 0}
   _spriteRenderer: {fileID: 1485074335}
   _material: {fileID: 2100000, guid: 4e8e1940c7fbcfd409e274b05a371cf5, type: 2}
+  _mass: 0
+  _floorYPosition: 0
+  _speed: 0
 --- !u!1 &1530571430
 GameObject:
   m_ObjectHideFlags: 0
