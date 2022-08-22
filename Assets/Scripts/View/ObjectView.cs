@@ -5,6 +5,8 @@ namespace U1BrowserPlatformer
     internal class ObjectView : MonoBehaviour, IPhisicsObjectView
     {
         [SerializeField] private Transform _transform;
+        [SerializeField] private Rigidbody2D _rigidbody;
+        [SerializeField] private Collider2D _collider;
         [SerializeField] private SpriteRenderer _spriteRenderer;
         [SerializeField] private Material _material;
         [SerializeField] private float _mass;
@@ -15,6 +17,15 @@ namespace U1BrowserPlatformer
         public Transform Transform
         {
             get { return _transform; }
+        }
+        public Rigidbody2D Rigidbody
+        {
+            get { return _rigidbody; }
+        }
+
+        public Collider2D Collider
+        {
+            get { return _collider; }
         }
         public SpriteRenderer SpriteRenderer
         {

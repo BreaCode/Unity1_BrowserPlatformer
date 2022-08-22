@@ -6,17 +6,23 @@ namespace U1BrowserPlatformer
     internal sealed class PlayerView : MonoBehaviour
     {
         [SerializeField] private Transform _playerTransform;
-        [SerializeField] private float _floorYPosition;
+        [SerializeField] private Rigidbody2D _playerRigidbody;
+        [SerializeField] private Collider2D _collider;
+        //Model
         [SerializeField] private float _speed;
         private bool _isGrounded = true;
-
-        public Transform PlayerTransform
+        public Transform Transform
         {
             get { return _playerTransform; }
         }
-        public float FloorYPosition
+
+        public Rigidbody2D Rigidbody
         {
-            get { return _floorYPosition; }
+            get { return _playerRigidbody; }
+        }
+        public Collider2D Collider
+        {
+            get { return _collider; }
         }
         public float Speed
         {
@@ -25,7 +31,7 @@ namespace U1BrowserPlatformer
         public bool IsGrounded
         {
             get { return _isGrounded; }
-            set { _isGrounded = value; }
+            set { _isGrounded = value; } 
         }
     }
 }
